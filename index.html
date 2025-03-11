@@ -5,9 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Practice</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Karla:ital,wght@0,200..800;1,200..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
     <script src="script.js" defer></script>
 </head>
 <body>
-   <h1>Financial Jargon Translator</h1>
+    <div class="container">
+        <h1>Demystify Finance</h1>
+        <p>Simple Definitions for Complex Terms</p>
+        
+        <!-- Search Bar -->
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search for a financial term...">
+            <button id="searchButton">🔍</button>
+        </div>
+
+        <!-- Example Suggestions -->
+        <div class="examples">
+            <span class="example-term">APR</span>
+            <span class="example-term">Inflation</span>
+            <span class="example-term">Compound Interest</span>
+        </div>
+
+        <!-- Results Section -->
+        <div id="result"></div>
+    </div>
 </body>
 </html>
