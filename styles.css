@@ -1,0 +1,76 @@
+body {
+    font-family: 'Mulish', sans-serif;
+    background: url('background.png') no-repeat center center fixed; /* Add your image */
+    background-size: cover; /* Ensure it covers the full screen */
+    color: white;
+    text-align: center;
+    padding: 50px;
+
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    color: black;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #213ade;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #213adeb3;
+}
+
+.examples {
+    margin-top: 15px;
+}
+
+.example-term {
+    display: inline-block;
+    padding: 5px 10px;
+    background: #ddd;
+    color: black;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.example-term:hover {
+    background: #ccc;
+}
+
+#result {
+    margin-top: 20px;
+    padding: 15px;
+    background: #f8f8f8;
+    border-radius: 5px;
+    display: none;
+}
