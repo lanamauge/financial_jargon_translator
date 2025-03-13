@@ -46,7 +46,8 @@ button {
 }
 
 button:hover {
-    background-color: #213adeb3;
+    background-color: #213adeb3
+;
 }
 
 .examples {
